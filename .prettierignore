@@ -1,0 +1,7 @@
+.next
+.idea
+node_modules
+.prettierrc
+.yarn
+.yarnrc.yml
+README.md
