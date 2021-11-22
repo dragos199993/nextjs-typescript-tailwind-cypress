@@ -30,7 +30,9 @@
     "@semantic-release/git"
   ],
   "release": {
-    "branches": ["main"],
+    "branches": [
+      "main"
+    ],
     "prepare": [
       "@semantic-release/changelog",
       "@semantic-release/npm",
@@ -45,5 +47,6 @@
       }
     ]
   },
-  "packageManager": "yarn@3.1.0"
+  "packageManager": "yarn@3.1.0",
+  "version": "1.0.0"
 }
